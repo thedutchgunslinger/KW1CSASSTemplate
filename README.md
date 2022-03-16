@@ -17,6 +17,7 @@ Autoprefixer is een tool die je kunt gebruiken om automatisch de browser prefixe
 # Hoe installeer ik sass?
 ## stap 1
 eerst moeten we node installeren. Dit kan je via deze link doen: [node.js](https://nodejs.org/en/).
+[git](https://git-scm.com/download/win)
 ## stap 2
 Nu we node hebben moeten we een specifieke mappen structuur hebben. deze ziet er als volgt uit: 
 ```
