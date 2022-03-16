@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+// VARIABLES
+// =============================================================================
+$colorPrimary: #000000;
+$colorSecondary: #ff9800;
+$colorAccent: #9c27b0;
+$colorText: #fbfafa;
+
+// Font Variables
+$roboto-slab: "Roboto Slab", serif;
+$open-sans: "Open Sans", sans-serif;
+
+$margin-m: 6rem;
+
+$breakpoint-desktop: 769px;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: $colorPrimary;
+  color: $colorText;
+  padding: 10px;
+  height: 100px;
+  text-align: center;
+  font-family: $open-sans;
+  nav {
+    height: 100%;
+    ul {
+      height: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    li {
+      margin-left: 20px;
+      a {
+        color: $colorText;
+        text-decoration: none;
+        font-size: 1.2rem;
+        &:hover {
+          color: $colorAccent;
+        }
+      }
+    }
+  }
+}
+
+// Grid Container styles
