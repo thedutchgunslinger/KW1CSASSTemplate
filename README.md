@@ -1,4 +1,4 @@
-# KW1C Sass Worksho Template
+# KW1C Sass Workshop Template
 In deze les gaan we kijken hoe we met met sass kunnen werken. Hiervoor moeten we eerst node installeren. 
 Doormiddel van node kunnen we sass installeren in ons project, ook zetten we er een live browser sync erin en een auto prefixer.
 
